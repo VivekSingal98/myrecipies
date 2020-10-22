@@ -1,0 +1,17 @@
+see what is the ruby path. it should not be the usr/bin/ruby as we don't want to use system ruby
+which ruby
+
+#instal rvm- to manage different versions of ruby on one machine
+\curl -sSL https://get.rvm.io | bash -s stable --ruby
+
+now check ruby path it should be inside .rvm hidden file
+
+now intall rails with
+gem install rails
+
+clone myrecipes from github. go to its root folder
+check if ruby version is the same, if different then please install the used ruby version
+
+bundle install 
+
+rails s to launch myrecipies in your local machine
